@@ -18,7 +18,7 @@
     margin: auto;
     position: absolute;
     top: 30px; left: 0;right: 0;
-    border:1px solid black;
+    border:12px solid rgba(255, 248, 248, 0.83);
     box-shadow: 7px 2px 10px gray;
     border-radius: 10px;
     padding: 20px;
