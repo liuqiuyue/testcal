@@ -1,0 +1,100 @@
+#input#disabled{
+    height:70px;
+    border:1px solid black;
+    border-radius: 10px;
+}
+#input{
+    /*border:1px solid black;*/
+    /*border-radius: 10px;*/
+    /*box-shadow:10px 10px 5px #666666;*/
+    border-collapse:separate;
+    /*table-layout:fixed;*/
+    /*width: 450px;*/
+
+}
+#container{
+    width: 460px;
+    /*float:left;*/
+    margin: auto;
+    position: absolute;
+    top: 30px; left: 0;right: 0;
+    border:1px solid black;
+    box-shadow: 7px 2px 10px gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#showWindow{
+    width: 454px;
+    height: 100px;
+    border:2px solid #c3c3c3;
+    border-radius: 10px;
+    background-color: #f2f4f4;
+    color: rgba(10, 21, 88, 0.87);
+    font-family:"Trebuchet MS" ;
+    border-spacing: 0px;
+    margin-bottom:7px ;
+    font-size: 80px;
+    text-align:right;
+    -webkit-transition: -webkit-transform .2s;
+    transition: transform .2s;
+}
+
+td{
+
+    width:70px;
+    height: 70px;
+    border:2px solid #bbbbbb;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 70px;
+
+margin: 50px;
+    font-size: 50px;
+    padding: 20px;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform .2s;
+    transition: transform .2s;
+    background-color: snow;
+}
+td:hover,#showWindow:hover{
+    -webkit-transform: scale(1.10);
+    -ms-transform: scale(1.10);
+    transform: scale(1.10);
+}
+.mask {
+    position: absolute; filter: alpha(opacity=60); background-color: #777;
+    z-index: 1002; left: 0px;
+    opacity:0.5; -moz-opacity:0.5;
+    margin: auto;
+    top: 30px; left: 0;right: 0;
+}
+.mask.btn{
+    background-color: darkgray;
+    border: 1px solid darkblue;
+    width: 100px;
+    height: 80px;
+}
+/*阴影*/
+.effect{
+    position: relative;
+    box-shadow:0px 1px 20px rgba(0,0,0,0.5),0 0 20px rgba(0,0,0,0.5) inset;
+    -webkit-box-shadow:0px 1px 20px rgba(0,0,0,0.5),0 0 20px rgba(0,0,0,0.5) inset;
+    -moz-box-shadow:0px 1px 20px rgba(0,0,0,0.5),0 0 20px rgba(0,0,0,0.5) inset;
+    -o-box-shadow:0px 1px 20px rgba(0,0,0,0.5),0 0 20px rgba(0,0,0,0.5) inset ;
+}
+.effect:after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top:10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    border: 1px solid rgba(218,218,218,0.4);
+    box-shadow:0 0 20px rgba(0,0,0,0.5);
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.5);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.5);
+    -o-box-shadow:0 0 20px rgba(0,0,0,0.5);
+    border-radius: 90px/6px;
+}
