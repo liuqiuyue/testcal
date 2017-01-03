@@ -6,7 +6,6 @@ var flag=0;//记忆数据
 var dspSize=80;//显示窗口文字大小
 $(function() {
 
-
     $(".number").click(function() {// 点击数字触发事件
         var num = $(this).attr('id');
         var oldValue = $("#showWindow").html();
@@ -254,9 +253,6 @@ function showMask(){
     oMask.css("width",$("#container").width());
     oMask.appendTo(document.body);
     var btn = $('<input type="button" value="重新算" class="btn">');
-    // btn.css({
-    //
-    // })
     btn.appendTo(oMask);
     btn.click(function(){
         oMask.remove();
@@ -291,7 +287,6 @@ function textSmall() {
     });//end
 
 };
-//显示框内文字大小检测
 //显示框文字是否溢出检测
 function txtDiag(){
 $("#showWindow").map(function() {
