@@ -9,8 +9,6 @@ $(function() {
     $(".number").click(function() {// 点击数字触发事件
         var num = $(this).attr('id');
         var oldValue = $("#showWindow").html();
-        // var oWidth = $("#showWindow").width();
-
         if (change == 1) {
             oldValue = "0";
             change = 0;
@@ -33,7 +31,6 @@ $(function() {
     });
     $("#clear").click(function() {// 点击清屏触发事件
         $("#showWindow").html("0").css("fontSize",dspSize+"px");
-
         yunSuan = 0;
         change = 0;
         num1 = 0.0;
@@ -68,7 +65,6 @@ $(function() {
         txtDiag();
         value=pointIden(value);
         num1 = parseFloat(value);
-
     });
     $("#equal").click(function() {// 点击等于符号触发事件
         var value = $("#showWindow").html();
@@ -83,15 +79,10 @@ $(function() {
         num1 = 0.0;
         num2 = 0.0;
     });
-
-
 });
-
 // 按键监听
-
 $(document).keydown(
     function(event) {
-
         // 数字监听
         if (((event.keyCode > 47 && event.keyCode < 58)
             || (event.keyCode > 95 && event.keyCode < 106) || (event.keyCode == 190 || event.keyCode == 110))
@@ -259,8 +250,6 @@ function showMask(){
     });
     $("#showWindow").html("0").css("fontSize",dspSize+"px");
 }
-//隐藏遮罩层
-
 function textSmall() {
     //检测显示框文字是否溢出，溢出则将文字变小显示。start
     $("#showWindow").map(function() {
