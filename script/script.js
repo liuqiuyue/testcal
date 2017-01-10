@@ -228,7 +228,7 @@ function showMask() {
     oMask.css("height", $("#container").height());
     oMask.css("width", $("#container").width());
     oMask.appendTo(document.body);
-    var btn = $('<input type="button" value="重新算" class="btn">');
+    var btn = $('<input type="button" value="超出精度，点我重新计算" class="btn">');
     btn.appendTo(oMask);
     btn.click(function() {
         oMask.remove();
