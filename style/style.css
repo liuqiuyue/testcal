@@ -5,7 +5,8 @@ html, body, div  {
     border: 0;
     font-size: 100%;
     font: inherit;
-
+    font-family: Times, TimesNR, 'New Century Schoolbook',
+    Georgia, 'New York', serif;
 }
 #input{
     border-collapse:separate;
@@ -38,7 +39,12 @@ html, body, div  {
     -webkit-transition: -webkit-transform .2s;
     transition: transform .2s;
 }
+#input{
+    border-collapse:separate;
+    posotion:relative;
+    width: 472px;
 
+}
 #input div{
 
     width:70px;
@@ -110,13 +116,13 @@ html, body, div  {
     padding: 0;
 }
 #input #equal{
-    height:186px;
+    height:187px;
     position: absolute;
-    right: 24px;
+    right: 22px;
     bottom: 20px;
     line-height: 140px;
     /*z-index: 0;*/
 }
 #input .zero{
-    width:186px;
+    width:187px;
 }
