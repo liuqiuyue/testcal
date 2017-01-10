@@ -256,8 +256,8 @@ function textSmall() {
             }
         }
     });
-}
-;//显示框文字是否溢出检测
+};
+//显示框文字是否溢出检测
 function txtDiag() {
     $("#showWindow").map(function() {
         while (this.offsetWidth < this.scrollWidth) {

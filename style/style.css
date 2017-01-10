@@ -1,17 +1,19 @@
 
+html, body, div  {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+
+}
 #input{
-    /*border:1px solid black;*/
-    /*border-radius: 10px;*/
-    /*box-shadow:10px 10px 5px #666666;*/
     border-collapse:separate;
-    /*table-layout:fixed;*/
-    /*width: 450px;*/
     posotion:relative;
 
 }
 #container{
-    width: 466px;
-    /*float:left;*/
+    width: 470px;
     margin: auto;
     position: absolute;
     top: 30px; left: 0;right: 0;
@@ -48,11 +50,12 @@
     float:left;
     font-size: 50px;
     padding: 20px;
+    margin: 2px;
     cursor: pointer;
     -webkit-transition: -webkit-transform .2s;
     transition: transform .2s;
     background-color: snow;
-    margin: 2px;
+
 }
 
 #input div:hover,#showWindow:hover{
@@ -97,17 +100,19 @@
     bottom: 10px;
     left: 10px;
     right: 10px;
-    border: 1px solid rgba(218,218,218,0.4);
+    border: 2px solid rgba(218,218,218,0.4);
     box-shadow:0 0 20px rgba(0,0,0,0.5);
     -webkit-box-shadow:0 0 20px rgba(0,0,0,0.5);
     -moz-box-shadow:0 0 20px rgba(0,0,0,0.5);
     -o-box-shadow:0 0 20px rgba(0,0,0,0.5);
     border-radius: 90px/6px;
+    margin: 0;
+    padding: 0;
 }
 #input #equal{
     height:186px;
     position: absolute;
-    right: 20px;
+    right: 24px;
     bottom: 20px;
     line-height: 140px;
     /*z-index: 0;*/
