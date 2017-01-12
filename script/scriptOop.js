@@ -128,7 +128,7 @@ Calculator.prototype.equalMon=function () {
  * 按键触发运算符
  */
 Calculator.prototype.keyDownYunSuan=function (oprChar) {
-    var value =showW.html();
+    var value =this.showW.html();
     this.flag = yunSuan;
     value = pointIden(value);
     this. num2 = this.parseFloat(value);
@@ -246,10 +246,18 @@ Calculator.prototype.pointIden=function (value) {
 }
 //添加遮罩层
 Calculator.prototype.showMask=function () {
-    var oMask = $('<div id="mask" class="mask"></div>');
+    var oMask = $('<div class="mask"></div>');
+    var topD=this.calD.offsetTop  ;
+    oMask.css({
+        "position": "absolute", "filter": "alpha(opacity=60)", "background-color": "#b1b1b1",
+        "z-index": "1002",
+        "opacity":"0.5",
+        "top": 15+"px",
+        "left": "5px",
+    })
     oMask.css("height", this.calD.height());
     oMask.css("width", this.calD.width());
-    oMask.appendTo(document.body);
+    oMask.appendTo(this.calD);
     var btn = $('<input type="button" value="超出精度，点我重新计算" class="btn">');
     btn.appendTo(oMask);
     btn.click(function() {

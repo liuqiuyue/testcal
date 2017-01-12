@@ -90,14 +90,14 @@ html, body, div  {
     -ms-transform: scale(1.10);
     transform: scale(1.10);
 }
- .mask {
-    position: absolute; filter: alpha(opacity=60); background-color: #b1b1b1;
-    z-index: 1002;
-    opacity:0.5; -moz-opacity:0.5;
-    margin: auto;
-    top: 60px; left: 0;right: 0;
+ /*.mask {*/
+    /*position: absolute; filter: alpha(opacity=60); background-color: #b1b1b1;*/
+    /*z-index: 1002;*/
+    /*opacity:0.5; -moz-opacity:0.5;*/
+    /*margin: auto;*/
+    /*top: 60px; left: 0;right: 0;*/
 
-}
+/*}*/
 .mask .btn{
     background-color: #f6f6f6;
     border: 1px solid #8c8c8c;
