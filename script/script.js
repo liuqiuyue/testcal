@@ -13,7 +13,8 @@ var dspSize = 80;
 $(function() {
     // 点击数字触发事件
     $(".number").click(function() {
-        var newValue = Judeg($(this).attr('id'), $("#showWindow").html(), change);
+        var newValue = Judeg($(this).attr('id'), $("#showWindow").html(), change)[0];
+       change = Judeg($(this).attr('id'), $("#showWindow").html(), change)[1];
         $("#showWindow").html(newValue);
         textSmall();
     });
@@ -166,7 +167,8 @@ function keyDownNum(code) {
         // "."监听
         number = "point";
     }
-    var newValue = Judeg(number, $("#showWindow").html(), change);
+    var newValue = Judeg(number, $("#showWindow").html(), change)[0];
+    change = Judeg(number, $("#showWindow").html(), change)[1];
     $("#showWindow").html(newValue);
     textSmall();
 }
@@ -174,27 +176,26 @@ function keyDownNum(code) {
 //输入或者按下的数字n，当前显示框显示的数据oV,当前的运算符ch
 //返回应显示的数据
 function Judeg(n, oV, ch) {
-    var num = n;
-    var oldValue = oV;
-    if (change == 1) {
-        oldValue = "0";
-        change = 0;
+    if (ch == 1) {
+        oV = "0";
+        ch = 0;
         $("#showWindow").css("fontSize", dspSize + "px");
     }
     var newValue = "";
-    if (num == "point") {
-        if (oldValue.indexOf('.') == -1)
-            newValue = oldValue + ".";
+    if (n == "point") {
+        if (oV.indexOf('.') == -1)
+            newValue = oV + ".";
         else
-            newValue = oldValue;
+            newValue = oV;
     } else {
-        if (oldValue == 0 && oldValue.indexOf('.') == -1) {
-            newValue = num;
+        if (oV == 0 && oV.indexOf('.') == -1) {
+            newValue = n;
         } else {
-            newValue = oldValue + num;
+            newValue = oV + n;
         }
     }
-    return newValue;
+    return [newValue, ch];
+
 }
 function operation(yunSuan) {
     var sum = 0.0;
@@ -215,6 +216,9 @@ function operation(yunSuan) {
     }
     return sum;
 }
+
+
+
 function pointIden(value) {
     var pointIndex = value.indexOf(".");
     if (pointIndex == value.length) {
@@ -233,7 +237,6 @@ function showMask() {
     btn.click(function() {
         oMask.remove();
     });
-    $("#showWindow").html("0").css("fontSize", dspSize + "px");
 }
 function textSmall() {
     //将文字变小显示
