@@ -21,8 +21,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+            <state relative-caret-position="194">
+              <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -31,11 +41,9 @@
       <file leaf-file-name="indexOop.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/indexOop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="500">
+              <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -43,8 +51,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="231" column="48" lean-forward="false" selection-start-line="231" selection-start-column="39" selection-end-line="231" selection-end-column="48" />
+            <state relative-caret-position="205">
+              <caret line="234" column="23" lean-forward="false" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="23" />
               <folding>
                 <element signature="n#!!doc;n#keyDownYunSuan#0" expanded="false" />
                 <element signature="n#!!block;n#keyDownYunSuan#0" expanded="false" />
@@ -54,21 +62,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scriptOop.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="scriptOop.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script/scriptOop.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1550">
-              <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+            <state relative-caret-position="2300">
+              <caret line="94" column="33" lean-forward="true" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
-                <element signature="e#3277#3574#0" expanded="false" />
-                <element signature="e#3575#3593#0" expanded="false" />
-                <element signature="e#4035#4064#0" expanded="false" />
-                <element signature="e#4113#5140#0" expanded="false" />
-                <element signature="e#5141#5150#0" expanded="false" />
-                <element signature="e#7134#7677#0" expanded="false" />
-                <element signature="e#7734#8162#0" expanded="false" />
-                <element signature="e#8207#8377#0" expanded="false" />
+                <element signature="e#3625#3643#0" expanded="false" />
+                <element signature="e#5275#5284#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -97,26 +99,26 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1826">
-              <caret line="95" column="1" lean-forward="false" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+            <state relative-caret-position="419">
+              <caret line="120" column="4" lean-forward="false" selection-start-line="120" selection-start-column="4" selection-end-line="120" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styleOop.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styleOop.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/styleOop.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            <state relative-caret-position="114">
+              <caret line="104" column="23" lean-forward="true" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
               <folding>
                 <element signature="e#18#198#0" expanded="false" />
                 <element signature="e#1524#1849#0" expanded="false" />
-                <element signature="e#1896#1995#0" expanded="false" />
-                <element signature="e#2544#2892#0" expanded="false" />
-                <element signature="e#2907#3318#0" expanded="false" />
-                <element signature="e#3332#3435#0" expanded="false" />
-                <element signature="e#3448#3469#0" expanded="false" />
+                <element signature="e#1900#1999#0" expanded="false" />
+                <element signature="e#2548#2896#0" expanded="false" />
+                <element signature="e#2911#3322#0" expanded="false" />
+                <element signature="e#3336#3439#0" expanded="false" />
+                <element signature="e#3452#3473#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -137,13 +139,13 @@
       <find>50</find>
       <find>80</find>
       <find>this.calD</find>
-      <find>input</find>
       <find>att</find>
       <find>clear</find>
       <find>operation</find>
       <find>yunSuan</find>
       <find>Judeg</find>
       <find>keyDownYunSuan</find>
+      <find>input</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -160,12 +162,13 @@
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/script/calculate.js" />
         <option value="$PROJECT_DIR$/script/changeStyle.js" />
+        <option value="$PROJECT_DIR$/script/script.js" />
+        <option value="$PROJECT_DIR$/style/styleOop.css" />
         <option value="$PROJECT_DIR$/style/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/script/script.js" />
+        <option value="$PROJECT_DIR$/index2.html" />
         <option value="$PROJECT_DIR$/indexOop.html" />
         <option value="$PROJECT_DIR$/script/scriptOop.js" />
-        <option value="$PROJECT_DIR$/style/styleOop.css" />
       </list>
     </option>
   </component>
@@ -199,8 +202,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -243,7 +246,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -666,15 +669,16 @@
       <workItem from="1484018663374" duration="76000" />
       <workItem from="1484018839192" duration="11528000" />
       <workItem from="1484098459276" duration="3296000" />
-      <workItem from="1484183569692" duration="20606000" />
+      <workItem from="1484183569692" duration="23928000" />
+      <workItem from="1484269120820" duration="9222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102505000" />
+    <option name="totallyTimeSpent" value="115049000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -683,7 +687,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18959913" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -691,7 +695,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19029851" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" x="415" y="181" width="480" height="801" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1924307" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" x="415" y="181" width="480" height="801" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -720,14 +724,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/style/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2650">
-          <caret line="106" column="23" lean-forward="false" selection-start-line="106" selection-start-column="23" selection-end-line="106" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -1063,10 +1059,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="120" column="4" lean-forward="false" selection-start-line="120" selection-start-column="4" selection-end-line="120" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/styleOop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="104" column="23" lean-forward="true" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
+          <folding>
+            <element signature="e#18#198#0" expanded="false" />
+            <element signature="e#1524#1849#0" expanded="false" />
+            <element signature="e#1900#1999#0" expanded="false" />
+            <element signature="e#2548#2896#0" expanded="false" />
+            <element signature="e#2911#3322#0" expanded="false" />
+            <element signature="e#3336#3439#0" expanded="false" />
+            <element signature="e#3452#3473#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/script/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="231" column="48" lean-forward="false" selection-start-line="231" selection-start-column="39" selection-end-line="231" selection-end-column="48" />
+        <state relative-caret-position="205">
+          <caret line="234" column="23" lean-forward="false" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="23" />
           <folding>
             <element signature="n#!!doc;n#keyDownYunSuan#0" expanded="false" />
             <element signature="n#!!block;n#keyDownYunSuan#0" expanded="false" />
@@ -1075,62 +1095,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1826">
-          <caret line="95" column="1" lean-forward="false" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+        <state relative-caret-position="194">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indexOop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="37" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/script/scriptOop.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1550">
-          <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+        <state relative-caret-position="2300">
+          <caret line="94" column="33" lean-forward="true" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
-            <element signature="e#3277#3574#0" expanded="false" />
-            <element signature="e#3575#3593#0" expanded="false" />
-            <element signature="e#4035#4064#0" expanded="false" />
-            <element signature="e#4113#5140#0" expanded="false" />
-            <element signature="e#5141#5150#0" expanded="false" />
-            <element signature="e#7134#7677#0" expanded="false" />
-            <element signature="e#7734#8162#0" expanded="false" />
-            <element signature="e#8207#8377#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indexOop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/styleOop.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <element signature="e#18#198#0" expanded="false" />
-            <element signature="e#1524#1849#0" expanded="false" />
-            <element signature="e#1896#1995#0" expanded="false" />
-            <element signature="e#2544#2892#0" expanded="false" />
-            <element signature="e#2907#3318#0" expanded="false" />
-            <element signature="e#3332#3435#0" expanded="false" />
-            <element signature="e#3448#3469#0" expanded="false" />
+            <element signature="e#3625#3643#0" expanded="false" />
+            <element signature="e#5275#5284#0" expanded="false" />
           </folding>
         </state>
       </provider>

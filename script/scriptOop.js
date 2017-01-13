@@ -6,7 +6,6 @@ $(function() {
     var cal=new Calculator('#showWindow','#container');
     var cal1=new Calculator('#showWindow1','#container1');
 });
-
 //构造函数--计算器
 //sw显示数据窗口；cn计算器主体
 function Calculator(sw,cn) {
@@ -36,47 +35,50 @@ function Calculator(sw,cn) {
     $(cn+"  .backspace").click(function(){_this.backMon()});
     $(cn+"  .operator").click(function(){_this.operMon(this)});
     $(cn+"  .equal").click(function(){_this.equalMon()});
+    $(sw).attr("tabindex",0);//jquery 实现div、span的keydown事件
+    $(sw).keydown(function () {
+        _this.keyMon(event,cn);
+    })
 }
 // 按键监听
-// $(document).keydown(function(event) {
-//     // 数字监听
-//     if (((event.keyCode > 47 && event.keyCode < 58) || (event.keyCode > 95 && event.keyCode < 106) || (event.keyCode == 190 || event.keyCode == 110)) && !event.shiftKey) {
-//         keyDownNum(event.keyCode);
-//     }
-//     // "+"监听
-//     if ((event.keyCode == 187 && event.shiftKey) || event.keyCode == 107) {
-//         keyDownYunSuan("plus");
-//     }
-//     // "-"监听
-//     if ((event.keyCode == 189 && event.shiftKey) || event.keyCode == 109) {
-//         keyDownYunSuan("minus");
-//     }
-//     // "*"监听
-//     if ((event.keyCode == 56 && event.shiftKey) || event.keyCode == 106) {
-//         keyDownYunSuan("multiply");
-//     }
-//     // "/"监听
-//     if (event.keyCode == 191 || event.keyCode == 111) {
-//         keyDownYunSuan("divide");
-//     }
-//     // "="监听
-//     if ((event.keyCode == 187 && !event.shiftKey) || event.keyCode == 13) {
-//         $("#equal").click();
-//     }
-//     // "回退"监听
-//     if (event.keyCode == 8) {
-//         $("#backspace").click();
-//         return false;
-//     }
-//     // "清屏"监听
-//     if (event.keyCode == 27 || event.keyCode == 46 || (event.keyCode == 110 && event.shiftKey)) {
-//         $("#clear").click();
-//         return false;
-//     }
-// });
+Calculator.prototype.keyMon=function(event,cn) {
+    // 数字监听
+    if (((event.keyCode > 47 && event.keyCode < 58) || (event.keyCode > 95 && event.keyCode < 106) || (event.keyCode == 190 || event.keyCode == 110)) && !event.shiftKey) {
+        this.keyDownNum(event.keyCode);
+    }
+    // "+"监听
+    if ((event.keyCode == 187 && event.shiftKey) || event.keyCode == 107) {
+        this.keyDownYunSuan("＋");
+    }
+    // "-"监听
+    if ((event.keyCode == 189 && event.shiftKey) || event.keyCode == 109) {
+        this.keyDownYunSuan("－");
+    }
+    // "*"监听
+    if ((event.keyCode == 56 && event.shiftKey) || event.keyCode == 106) {
+        this.keyDownYunSuan("×");
+    }
+    // "÷"监听
+    if (event.keyCode == 191 || event.keyCode == 111) {
+        this.keyDownYunSuan("÷");
+    }
+    // "="监听
+    if ((event.keyCode == 187 && !event.shiftKey) || event.keyCode == 13) {
+        $(cn+"  .equal").click();
+    }
+    // "回退"监听
+    if (event.keyCode == 8) {
+        $(cn+"  .backspace").click();
+        return false;
+    }
+    // "清屏"监听
+    if (event.keyCode == 27 || event.keyCode == 46 || (event.keyCode == 110 && event.shiftKey)) {
+        $(cn+"  .clear").click();
+        return false;
+    }
+}
 Calculator.prototype.numMon=function (n) {
     var text=$(n).text();
-
     var newValue = this.Judeg(text,this.showW.html(),this.change)[0];
     this.change =this.Judeg(text,this.showW.html(),this.change)[1];
     this.showW.html(newValue);
@@ -129,10 +131,10 @@ Calculator.prototype.equalMon=function () {
  */
 Calculator.prototype.keyDownYunSuan=function (oprChar) {
     var value =this.showW.html();
-    this.flag = yunSuan;
-    value = pointIden(value);
-    this. num2 = this.parseFloat(value);
-    this.showW.html(operation(flag));
+    this.flag = this.yunSuan;
+    value = this.pointIden(value);
+    this.num2 = parseFloat(value);
+    this.showW.html(this.operation(this.flag));
     this.change = 1;
     this.yunSuan = oprChar;
     //将num1和num2计算出来的结果，保存到num1中，并在屏幕显示
@@ -188,11 +190,12 @@ Calculator.prototype.keyDownNum=function (code) {
     }
     if (code == 190 || code == 110) {
         // "."监听
-        number = "point";
+        number = ".";
     }
-    var newValue = Judeg(number, $("#showWindow").html(), change);
-    $("#showWindow").html(newValue);
-    textSmall();
+    var newValue = this.Judeg(number,this.showW.html(),this.change)[0];
+    this.change =this.Judeg(number,this.showW.html(),this.change)[1];
+    this.showW.html(newValue);
+    this.textSmall();
 }
 //0、.运算判断
 //输入或者按下的数字n，当前显示框显示的数据oV,当前的运算符ch

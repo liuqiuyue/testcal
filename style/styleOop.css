@@ -60,14 +60,14 @@ html, body, div  {
     -webkit-transition: -webkit-transform .2s;
     transition: transform .2s;
 }
- .input{
+ .inPut{
     border-collapse:separate;
     posotion:relative;
     width: 480px;
     margin:0 auto;
 
 }
- .input div{
+ .inPut div{
 
     width:106px;
     height: 106px;
@@ -85,7 +85,7 @@ html, body, div  {
 
 }
 
-.input div:hover,#container #showWindow:hover{
+    .inPut div:hover,#container #showWindow:hover{
     -webkit-transform: scale(1.10);
     -ms-transform: scale(1.10);
     transform: scale(1.10);
@@ -137,14 +137,14 @@ html, body, div  {
     margin: 0;
     padding: 0;
 }
-.input .equal{
+.inPut .equal{
     height:226px;
     position: absolute;
     right: 20px;
     bottom: 8px;
     line-height: 220px;
 }
-.input .zero{
+.inPut .zero{
     width:226px;
 
 }
