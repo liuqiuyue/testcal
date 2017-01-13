@@ -28,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="450">
+              <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -65,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scriptOop.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="scriptOop.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/scriptOop.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -182,10 +182,10 @@
         <option value="$PROJECT_DIR$/script/script.js" />
         <option value="$PROJECT_DIR$/style/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index2.html" />
         <option value="$PROJECT_DIR$/style/styleOop.css" />
         <option value="$PROJECT_DIR$/indexOop.html" />
         <option value="$PROJECT_DIR$/script/scriptOop.js" />
+        <option value="$PROJECT_DIR$/index2.html" />
       </list>
     </option>
   </component>
@@ -687,12 +687,12 @@
       <workItem from="1484018839192" duration="11528000" />
       <workItem from="1484098459276" duration="3296000" />
       <workItem from="1484183569692" duration="23928000" />
-      <workItem from="1484269120820" duration="10116000" />
+      <workItem from="1484269120820" duration="10465000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115943000" />
+    <option name="totallyTimeSpent" value="116292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1118,14 +1118,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/indexOop.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
@@ -1162,6 +1154,14 @@
             <element signature="e#7869#8297#0" expanded="false" />
             <element signature="e#8342#8512#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
