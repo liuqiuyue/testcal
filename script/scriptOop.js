@@ -5,6 +5,7 @@
 $(function() {
     var cal=new Calculator('#showWindow','#container');
     var cal1=new Calculator('#showWindow1','#container1');
+
 });
 //构造函数--计算器
 //sw显示数据窗口；cn计算器主体
